@@ -1,6 +1,6 @@
-# Reconhecimento de Dígitos com PyTorch
+# 🧠 Reconhecimento de Dígitos com PyTorch
 
-Este projeto treina uma rede neural simples para reconhecer dígitos manuscritos usando o dataset MNIST. A interface interativa foi construída com Gradio.
+Este projeto treina uma rede neural simples para reconhecer dígitos manuscritos usando o dataset MNIST. A interface interativa foi construída com Gradio e está disponível online via Hugging Face Spaces.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-🧠-red)
@@ -19,37 +19,38 @@ source venv/bin/activate
 pip install -r requirements.txt
 python train.py
 python app.py
+```
 
 ---
-
-## Estrutura do projeto:
+## Estrutura do projeto
 rede-neural-pytorch/
 ├── app.py               # Interface Gradio
 ├── train.py             # Treinamento da rede neural
 ├── test.py              # Testes e validações
 ├── requirements.txt     # Dependências
-├── .gradio/flagged/     # Dados salvos pela interface
+├── models/              # Modelo treinado (.pth)
+└── .gradio/flagged/     # Dados salvos pela interface
 
----
+ ## Resultados
 
-## Resultados:
 Acurácia no conjunto de teste: 97.16%
 
----
+## Demo online
 
-## Demo online:
-Se quiser testar a interface direto no navegador, acesse:
+👉 [Teste a demo online](https://huggingface.co/spaces/tinesslee/rede-neural-pytorch)
 
-[(https://huggingface.co/spaces/tinesslee/rede-neural-pytorch)]
+## Tecnologias usadas
 
----
+PyTorch
 
-## Tecnologias usadas:
+Gradio
 
-    PyTorch
-    Gradio
-    MNIST Dataset
-    Python
+MNIST Dataset
 
-## Autor:
+Python
+
+## Autor
+
 Feito com 💙 por Thais Inês
+
+
