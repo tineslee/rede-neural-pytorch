@@ -1,4 +1,4 @@
-# 🧠 Reconhecimento de Dígitos com PyTorch
+# Reconhecimento de Dígitos com PyTorch
 
 Este projeto treina uma rede neural simples para reconhecer dígitos manuscritos usando o dataset MNIST. A interface interativa foi construída com Gradio e está disponível online via Hugging Face Spaces.
 
