@@ -24,11 +24,17 @@ python app.py
 ---
 ## Estrutura do projeto
 rede-neural-pytorch/
+
 ├── app.py               # Interface Gradio
+
 ├── train.py             # Treinamento da rede neural
+
 ├── test.py              # Testes e validações
+
 ├── requirements.txt     # Dependências
+
 ├── models/              # Modelo treinado (.pth)
+
 └── .gradio/flagged/     # Dados salvos pela interface
 
  ## Resultados
